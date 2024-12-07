@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.aside_icon_hover:hover {
+    background: #26313A;
+    border-radius: 20px 0 0 20px;
+}
+
+/* .aside_icon_hover:hover svg path {
+    fill: #FFAE00;
+} */
+
+.aside_icon_hover:hover .downArrHover svg path {
+    stroke: #FFAE00;
+}
+
+.aside_icon_hover:active .downArrHover {
+    scale: -1;
+}
+
+.aside_icon_hover:hover p {
+    color: #FFAE00;
+}
+
+::-webkit-scrollbar {
+    display: none !important;
+}
+
+.reset_save_btn {
+    border: 1.5px solid transparent;
+    background: linear-gradient(white, white)padding-box, linear-gradient(90deg, #8A2387 0%, #E94057 49.43%, #F27121 105.44%)border-box;
+}
+
+.reset_save_btn:hover {
+    transition: .3s;
+    background: #FFAE00;
+}
+
+.reset_save_btn:hover .gradient_clr {
+    background: #000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient_clr {
+    background: linear-gradient(90deg, #8A2387 0%, #E94057 49.43%, #F27121 105.44%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+input[type="checkbox" i] {
+    border: 1px solid black !important;
+}
+
+.export_btn {
+    /* background: linear-gradient(90deg, #8A2387%200%,%20#E94057%2049.43%,%20#F27121%20105.44%); */
+    background: linear-gradient(90deg, #8A2387 0%, #E94057 49.43%, #F27121 105.44%);
+}
